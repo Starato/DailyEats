@@ -10,6 +10,7 @@ export default function landingPageLayout() {
         <div>
             <Header />
             <SearchBar />
+            <button>API Test</button>
         </div>
     );
 }
