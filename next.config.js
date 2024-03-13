@@ -1,3 +1,6 @@
+const { prototype } = require("events");
+const { hostname } = require("os");
+
 module.exports = {
     images: {
         remotePatterns: [
@@ -7,6 +10,12 @@ module.exports = {
                 port: '',
                 pathname: '/recipeImages/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+                pathname: '/**',
+            }
         ],
     },
 }

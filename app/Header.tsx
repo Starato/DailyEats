@@ -3,8 +3,8 @@ import Link  from 'next/link'
 export const Header = () => {
     
     return (
-        <div className="bg-stone-900 w-full h-20 text-slate-100
-        grid grid-cols-[20%_auto_20%]">
+        <div className="bg-stone-900 flex-1 h-20 text-slate-100
+            grid grid-cols-[20%_auto_20%]">
 
             <div className="col-start-1 flex justify-center items-center h-20">
                 <h2 className=" text-yellow-300 text-4xl font-bold m-4">Daily Eats</h2>
