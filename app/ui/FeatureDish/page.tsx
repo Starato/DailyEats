@@ -1,13 +1,13 @@
 import React from 'react';
 
-interface FeatureDish {
+interface FeaturedDish {
     dishName: string, 
     dishImage: string,
     moveX: string,
     moveY: string
 }
 
-const FeatureDish: React.FC<FeatureDish> = ({ dishName, dishImage, moveX, moveY }): JSX.Element => {
+const FeatureDish: React.FC<FeaturedDish> = ({ dishName, dishImage, moveX, moveY }): JSX.Element => {
   return (
     <div className='group m-2 p-5 relative flex justify-center items-center overflow-hidden
       min-w-[300px] max-w-[500px] min-h-[600px] flex-auto'>
