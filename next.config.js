@@ -1,6 +1,3 @@
-const { prototype } = require("events");
-const { hostname } = require("os");
-
 module.exports = {
     images: {
         remotePatterns: [
