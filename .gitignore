@@ -4,9 +4,6 @@
 # dependencies
 /node_modules
 /.eslintrc.json
-/next.config.mjs
-/postcss.config.js
-/tailwind.config.js
 /.pnp
 .pnp.js
 .yarn/install-state.gz

@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatureDish from './ui/FeatureDish/page';
+import {FeatureDish} from './ui/FeatureDish/FeatureDish';
 
 // interface Recipes {
 //     recipes: Recipe[]

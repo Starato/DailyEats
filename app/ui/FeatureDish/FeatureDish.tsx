@@ -7,7 +7,7 @@ interface FeaturedDish {
     moveY: string
 }
 
-export default function FeatureDish(props: FeaturedDish): JSX.Element {
+export function FeatureDish(props: FeaturedDish): JSX.Element {
   return (
     <div className='group m-2 p-5 relative flex justify-center items-center overflow-hidden
       min-w-[300px] max-w-[500px] min-h-[600px] flex-auto'>
