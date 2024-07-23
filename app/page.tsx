@@ -1,4 +1,4 @@
-import { Header } from "./Header";
+import { Header } from "./ui/Header/Header";
 // import { Explore } from "./Explore";
 import { Featured } from "./Featured";
 

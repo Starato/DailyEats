@@ -9,11 +9,11 @@ interface FeaturedDish {
 
 export function FeatureDish(props: FeaturedDish): JSX.Element {
   return (
-    <div className='group m-2 p-5 relative flex justify-center items-center overflow-hidden
-      w-[150px] h-[500px] flex-auto'>
+    <div className='group m-1 p-5 relative flex justify-center items-center overflow-hidden
+      w-[150px] h-[500px] cursor-pointer flex-auto rounded-md'>
         <p className='text-2xl font-bold text-center tracking-widest text-wrap text-slate-50 absolute opacity-0 z-10
             transition-opacity ease-in-out duration-700
-            group-hover:opacity-100 drop-shadow-md'>
+            group-hover:opacity-100 drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,0.5)]'>
             { props.dishName }
         </p>
         

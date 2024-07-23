@@ -16,11 +16,11 @@ export const Featured = async () => {
 
     //     const data: Recipes = await res.json();
     return (
-        <>
-            <div className='flex justify-center mt-5'>
-                <h3 className='font-bold text-[75px] tracking-widest'>Featured</h3>
+        <div className=' mx-10'>
+            <div className='absolute rounded-md -translate-x-4 -translate-y-8 z-10 bg-stone-900 text-yellow-400 p-4'>
+                <p className='font-bold text-3xl tracking-wide'>Featured</p>
             </div>
-            <div className='flex justify-center mt-5'>
+            <div className='flex justify-center mt-16'>
                 <FeatureDish key={1} dishName='Salmon Risotto' moveX='-50px' moveY='-200px'
                     dishImage='https://i0.wp.com/aflavorjournal.com/wp-content/uploads/2022/01/Lemon-and-Pea-Risotto-with-Salmon-19.jpg?w=1000&ssl=1'/>
                 
@@ -36,6 +36,6 @@ export const Featured = async () => {
                 <FeatureDish key={5} dishName='Chicken Shawarma Bowl' moveX='' moveY='-600px'
                     dishImage='https://hips.hearstapps.com/hmg-prod/images/chicken-shawarma-bowls-lead-659dcc922af40.jpg?resize=1200:*' />
             </div>
-        </>
+        </div>
     )
 }
