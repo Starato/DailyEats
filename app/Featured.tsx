@@ -1,20 +1,7 @@
 import React from 'react';
 import {FeatureDish} from './ui/FeatureDish/FeatureDish';
 
-// interface Recipes {
-//     recipes: Recipe[]
-// }
-
-// interface Recipe {
-//     id: number, title: string, image: string,
-// }
-
 export const Featured = async () => {
-    // const secretKey = process.env.KEY;
-    // const res = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${secretKey}&number=1`
-    //     , {next: {revalidate: 3600}});
-
-    //     const data: Recipes = await res.json();
     return (
         <div className=' mx-10'>
             <div className='absolute rounded-md -translate-x-4 -translate-y-8 z-10 bg-stone-900 text-yellow-400 p-4'>

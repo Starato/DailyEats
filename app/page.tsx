@@ -1,5 +1,4 @@
 import { Header } from "./ui/Header/Header";
-// import { Explore } from "./Explore";
 import { Featured } from "./Featured";
 
 export default function Home() {
@@ -8,9 +7,6 @@ export default function Home() {
 		<div className='min-w-full'>
 			<Header/>
 			<Featured />
-
-			{/* <Explore /> */}
-
 		</div>
 		
 	);
